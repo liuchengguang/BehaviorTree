@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\AI">
+      <UniqueIdentifier>{9b7edf36-c124-47e1-b328-4de79bce8a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\BehaviorsTrees">
+      <UniqueIdentifier>{4ee2c0d9-79ed-4380-a86e-b0ca5eca8a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\BehaviorsTrees\Behaviors">
+      <UniqueIdentifier>{112f7e2c-bf44-4e89-88e6-4543ded276be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\BehaviorsTrees\Base">
+      <UniqueIdentifier>{f999fb4a-7d24-40c4-8ac4-27d2aafdaab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\BehaviorsTrees\Components">
+      <UniqueIdentifier>{1ebc6b5a-6ced-4aa6-b768-0184c3c08022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\BehaviorsTrees\Decorators">
+      <UniqueIdentifier>{cc60338e-a85e-480b-9876-52a75b237fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\BehaviorsTrees\Queries">
+      <UniqueIdentifier>{e0977289-098b-486e-824b-fd3e2510ce58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\BehaviorsTrees\System">
+      <UniqueIdentifier>{46d6360c-5abe-4d3a-a2cc-aa1c82cde702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\Pathfinding">
+      <UniqueIdentifier>{62408626-11b2-49a1-90c2-9ebdc315f0a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{ce59d4ec-1fa3-4224-9da3-5fac94150697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{2ebd08ed-2dc9-4f39-9f3b-ab9d7d09c708}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Blackboard.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Decorator.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Selector.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Sequence.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Node.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NodeBlackboard.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NodeBranch.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Task.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Query.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BehaviorTree.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AlwaysFail.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Decorators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AlwaysSuccess.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Decorators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Inverter.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Decorators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Repeater.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Decorators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RepeatTime.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Decorators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SuccessIfRunning.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Decorators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ArtificialIntelligence.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HealthLowerThan.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Queries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AStar.cpp">
+      <Filter>Source Files\AI\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChaseRanged.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EscapeTarget.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Wander.cpp">
+      <Filter>Source Files\AI\BehaviorsTrees\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Main.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FaithEngine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameObject.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Blackboard.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Decorator.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Selector.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Sequence.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Node.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\NodeBlackboard.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\NodeBranch.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Task.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Query.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BehaviorTree.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AlwaysFail.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Decorators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AlwaysSuccess.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Decorators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Inverter.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Decorators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Repeater.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Decorators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RepeatTime.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Decorators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SuccessIfRunning.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Decorators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ArtificialIntelligence.h">
+      <Filter>Source Files\AI\BehaviorsTrees\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\HealthLowerThan.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Queries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AStar.h">
+      <Filter>Source Files\AI\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ChaseRanged.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EscapeTarget.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Wander.h">
+      <Filter>Source Files\AI\BehaviorsTrees\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FaithEngine.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameObject.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
